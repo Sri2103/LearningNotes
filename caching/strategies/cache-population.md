@@ -3,15 +3,13 @@
 - These strategies determine when and how data gets into cache
 
 ```mermaid
-mindmap
-    strategis
-        Cache-Aside
-        Write-Through
-        Write-Back
-        Read-Through
-        Pre-fetching
+graph TD
+  cache-population --> Cache-Aside
+  cache-population --> Write-Through
+  cache-population --> Write-back
+  cache-population -->Read-Through
+  cache-population -->Pre-fetching
 ```
-
 
 ![population-strategis](../files/cache-population.webp)
 
