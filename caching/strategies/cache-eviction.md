@@ -3,14 +3,13 @@
 decides what data to remove when cache is full
 
 ```mermaid
-mindmap
-    eviction-cache
-        LRU
-        MRU(Most recently used)
-        FIFO(first in first out)
-        LFU (least frequently used)
-        TTL (Time to live)
-        Random eviction
+graph TD
+  eviction --> LRU
+  eviction --> MRU[most recently used]
+  eviction --> FIFO[first in first out]
+  eviction --> LFU[least frequently used]
+  eviction --> TTL[time to live]
+  eviction --> Random-eviction
 ```
 
 ![ cache-eviction](../files/cache-eviction.webp)

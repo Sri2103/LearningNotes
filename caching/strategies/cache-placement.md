@@ -4,12 +4,11 @@ determines where cache lives
 
 ![alt text](../files/cache-placement.webp)
 
-```mermaid
-mindmap
-    placement
-        local-caching
-        edge-caching
-        distributed-caching
+````mermaid
+graph TD
+    placement --> local-caching
+    placement --> edge-caching
+    placement --> distributed-caching
 ```
 
 ## Local-caching
@@ -45,3 +44,4 @@ caching near user
   - Hard to invalidate globally
 - Usecase:
   - webcaching with cloudflare
+````

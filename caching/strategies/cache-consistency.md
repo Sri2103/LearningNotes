@@ -5,12 +5,11 @@ how cache stays in sync with source
 ![alt text](../files/cache-consistency.webp)
 
 ```mermaid
-mindmap
-    consistency
-        write invalidate
-        write update
-        eventual consistency
-        strong consistency
+graph TD
+  consistency --> write-invalidate
+  consistency --> write-update
+  consistency --> eventual-consistency
+  consistency --> strong-consistency
 ```
 
 ## write invalidate

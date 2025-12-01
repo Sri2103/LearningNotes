@@ -7,13 +7,12 @@ keeping copies of database query results, rows or colums or objects in cache
 ## Types of Database caches
 
 ```mermaid
-mindmap
-    database-caching
-        query-cache
-        row-level cache
-        full-page cache
-        write-through cache
-        write-back cache
+graph TD
+    database-caching --> query-cache
+    database-caching --> row-level-cache
+    database-caching --> full-page-cache
+    database-caching --> write-through-cache
+    database-caching --> write-back-cache
 ```
 
 ![alt text](./files/dbcaching.webp)

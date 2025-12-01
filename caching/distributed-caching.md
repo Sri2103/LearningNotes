@@ -7,10 +7,9 @@
 ## Types of distributed caching
 
 ```mermaid
-mindmap
-    distributed -caching
-        distributed key value store
-        cdn
+graph TD
+    distributed-caching --> key-value-pair
+    distributed-caching --> cdn
 ```
 
 ![alt text](./files//distributed-caching.webp)

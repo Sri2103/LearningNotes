@@ -12,6 +12,7 @@ mindmap
         Pre-fetching
 ```
 
+
 ![population-strategis](../files/cache-population.webp)
 
 ## Cache-Aside

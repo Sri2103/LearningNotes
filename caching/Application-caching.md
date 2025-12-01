@@ -5,11 +5,11 @@ Involves storing of the memory within or close to application itself, The goal i
 ## Types of application caches
 
 ```mermaid
-mindmap
-    application-cache
-        In-memorycache
-        object-cache
-        session-cache
+graph TD
+  application-cache --> In-Memory-cache
+  application-cache --> object-cache
+  application-cache --> session-cache
+
 ```
 
 ### In-memory-cache

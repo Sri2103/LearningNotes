@@ -14,7 +14,7 @@ Hardware or software comonnet that stores data of frequent accessed requests
 
 ### Types of caching
 
-```mermaid
+<!-- ```mermaid
 mindmap
   caching
     application-caching
@@ -22,4 +22,12 @@ mindmap
     distributed-caching
     web-caching
     hardware-level caching
+``` -->
+
+```mermaid
+graph TD
+  caching --> application-caching
+  caching --> database-caching
+  caching --> web-caching
+  caching --> hardware-caching
 ```
