@@ -1,0 +1,3 @@
+- Designing Data-Intensive Applications
+- System Design Interview (Alex Xu)
+- The Art of Scalability

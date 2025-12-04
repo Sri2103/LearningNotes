@@ -1,0 +1,3 @@
+- Kubernetes in Action
+- The Kubernetes Book
+- Cloud Native DevOps with Kubernetes

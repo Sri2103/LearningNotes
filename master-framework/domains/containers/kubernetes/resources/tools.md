@@ -1,0 +1,6 @@
+- kubectl
+- k9s
+- minikube
+- kind
+- kustomize
+- helm
