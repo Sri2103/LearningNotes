@@ -1,0 +1,3 @@
+- MIT OS lectures  
+- Gaurav Sen (OS playlists)  
+- Jacob Sorber  

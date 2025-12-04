@@ -1,0 +1,5 @@
+- strace  
+- ltrace  
+- perf  
+- sysdig  
+- gdb  
