@@ -1,0 +1,3 @@
+- AnandTech CPU deep dives
+- Chips and Cheese
+- RealWorldTech

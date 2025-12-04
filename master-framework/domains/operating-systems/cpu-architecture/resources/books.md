@@ -1,0 +1,3 @@
+- Computer Architecture: A Quantitative Approach
+- Computer Organization and Design
+- CSAPP

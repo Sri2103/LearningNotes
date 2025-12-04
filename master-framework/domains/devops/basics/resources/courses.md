@@ -1,0 +1,3 @@
+- Kubernetes CKA  
+- Terraform Associate  
+- Prometheus/Grafana  

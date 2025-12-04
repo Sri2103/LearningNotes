@@ -1,0 +1,7 @@
+- Terraform
+- Ansible
+- Jenkins/GitHub Actions/GitLab
+- Prometheus
+- Grafana
+- ArgoCD
+- Docker

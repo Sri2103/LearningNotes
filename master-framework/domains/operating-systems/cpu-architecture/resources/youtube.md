@@ -1,0 +1,3 @@
+- Ben Eater  
+- 3Blue1Brown (machine integers)  
+- Neso Academy (COA lectures)  
