@@ -1,0 +1,6 @@
+- perf
+- valgrind
+- cachegrind
+- strace
+- iostat
+- hdparm

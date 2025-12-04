@@ -1,0 +1,3 @@
+- Jacob Sorber  
+- MIT OpenCourseWare  
+- Computerphile  

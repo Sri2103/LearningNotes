@@ -1,0 +1,4 @@
+- Computer Systems: A Programmer's Perspective
+- Operating Systems: Three Easy Pieces
+- Modern Operating Systems
+- Linux Kernel Development
