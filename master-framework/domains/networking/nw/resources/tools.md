@@ -1,0 +1,5 @@
+- Wireshark
+- tcpdump
+- nslookup/dig
+- traceroute
+- curl

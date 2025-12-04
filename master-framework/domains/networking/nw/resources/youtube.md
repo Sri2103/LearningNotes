@@ -1,0 +1,3 @@
+- Fireship (quick refreshers)  
+- Gaurav Sen  
+- Computerphile  
