@@ -1,0 +1,4 @@
+- AWS Solutions Architect
+- GCP Professional Cloud Architect
+- Azure Architect Expert
+- Kubernetes + Terraform

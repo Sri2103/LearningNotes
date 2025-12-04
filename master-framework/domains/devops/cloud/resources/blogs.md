@@ -1,0 +1,4 @@
+- AWS Architecture Blog
+- Google Cloud Blog
+- Azure Architecture Center
+- Cloudflare Blog
