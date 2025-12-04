@@ -1,0 +1,5 @@
+- htop  
+- bpftrace  
+- strace  
+- socat  
+- tmux  
