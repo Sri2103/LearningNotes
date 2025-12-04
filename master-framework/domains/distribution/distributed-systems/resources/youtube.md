@@ -1,0 +1,3 @@
+- Martin Kleppmann talks  
+- MIT OCW  
+- AWS reInvent architecture talks  

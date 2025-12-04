@@ -1,0 +1,3 @@
+- Designing Data-Intensive Applications
+- Distributed Systems (Tanenbaum)
+- Distributed Systems for Fun and Profit
