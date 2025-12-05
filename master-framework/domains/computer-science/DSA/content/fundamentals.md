@@ -6,8 +6,8 @@
 
 ## Data Structures
 
-- Arrays
-- Hashmaps
+- Arrays -- refer [array](./concepts/arrays.md)
+- Hashmaps -- refer[hashing](./concepts/hashmap.md)
 - Stacks
 - Queues
 
