@@ -8,7 +8,7 @@
 
 - Arrays -- refer [array](./concepts/arrays.md)
 - Hashmaps -- refer[hashing](./concepts/hashmap.md)
-- Stacks
+- Stacks -- refer [stack](./concepts/stacks.md)
 - Queues
 
 ## Recursion Basics
