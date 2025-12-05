@@ -1,0 +1,4 @@
+- Net Ninja  
+- Traversy Media  
+- Fireship  
+- Web Dev Simplified  

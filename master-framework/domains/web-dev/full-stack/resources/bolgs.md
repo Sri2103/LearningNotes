@@ -1,0 +1,4 @@
+- Kent C. Dodds  
+- Dan Abramov  
+- CSS Tricks  
+- MDN Web Docs  

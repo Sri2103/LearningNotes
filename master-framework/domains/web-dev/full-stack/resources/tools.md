@@ -1,0 +1,8 @@
+- Node.js  
+- Express  
+- React  
+- Next.js  
+- Docker  
+- Postman  
+- Prisma / TypeORM  
+- Redis  
