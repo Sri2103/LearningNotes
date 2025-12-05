@@ -1,0 +1,3 @@
+- MIT 6.006  
+- MIT 6.042 (math for CS)  
+- Stanford CS161  
