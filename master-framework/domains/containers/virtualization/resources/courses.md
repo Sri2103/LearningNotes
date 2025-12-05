@@ -1,0 +1,3 @@
+- Kelsey Hightower: Containers the Hard Way
+- Linux Foundation LFS458 (LXC/LXD)
+- Docker Mastery

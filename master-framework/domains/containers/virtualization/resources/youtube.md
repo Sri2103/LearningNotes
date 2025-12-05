@@ -1,0 +1,3 @@
+- Liz Rice (Container talks)
+- GOTO Conferences Docker Internals
+- Brendan Gregg (Linux performance)

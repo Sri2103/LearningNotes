@@ -1,0 +1,3 @@
+- Docker Deep Dive
+- Container Security (Liz Rice)
+- Linux Kernel Development
