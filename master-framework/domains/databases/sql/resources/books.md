@@ -1,0 +1,4 @@
+- Designing Data-Intensive Applications
+- Database System Concepts
+- SQL Anti-Patterns
+- Readings in Database Systems ("The Red Book")

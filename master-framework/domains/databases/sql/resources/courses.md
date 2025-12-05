@@ -1,0 +1,3 @@
+- CMU Database Systems 15-445
+- Stanford CS 245
+- MIT 6.830 (DB internals)
