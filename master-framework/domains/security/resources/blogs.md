@@ -1,0 +1,4 @@
+- Cloudflare blog  
+- Troy Hunt  
+- OWASP blog  
+- Latacora  

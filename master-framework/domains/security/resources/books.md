@@ -1,0 +1,4 @@
+- Cryptography Engineering
+- Applied Cryptography
+- Web Application Hacker’s Handbook
+- Security Engineering

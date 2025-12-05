@@ -1,0 +1,4 @@
+- Stanford Cryptography  
+- OWASP training  
+- Google Cloud Security Engineer  
+- AWS Security Specialty  

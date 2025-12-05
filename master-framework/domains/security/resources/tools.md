@@ -1,0 +1,7 @@
+- Burp Suite
+- Wireshark
+- Hashicorp Vault
+- KMS (AWS/GCP/Azure)
+- OpenSSL
+- Nmap
+- Metasploit (for study)
