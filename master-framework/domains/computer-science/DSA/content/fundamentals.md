@@ -14,9 +14,17 @@
 - Trees -- refer [trees](./concepts//trees/readme.md)
 - Graph -- refer [graph](./concepts/graph.md)
 
-## Recursion Basics
+[GeekForGeeks](https://www.geeksforgeeks.org/dsa/)
 
-[gfg](https://www.geeksforgeeks.org/dsa/)
+## Techniques
 
-- Base case
-- Recursive case
+- [Bruteforce](./techniques/bruteforce.md)
+- [Greedy](./techniques/greedy-algorithm.md)
+- [recursion](./techniques/recursion.md)
+- [divide-conquer](./techniques/divide-conquer.md)
+- [dynamic-programming](./techniques/dynamicprogramming.md)
+- [2-ponter](./techniques/2-pointer.md)
+- [backtracking](./techniques/backtracking.md)
+- [bfs-dfs](./techniques/bfs-dfs.md)
+- [binary-search](./techniques/binary-search.md)
+- [sliding-window](./techniques/sliding-window.md)
