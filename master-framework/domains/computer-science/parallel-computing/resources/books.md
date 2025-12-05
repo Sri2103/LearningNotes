@@ -1,0 +1,4 @@
+- The Art of Multiprocessor Programming
+- Java Concurrency in Practice
+- Concurrency in Go
+- Programming Massively Parallel Processors

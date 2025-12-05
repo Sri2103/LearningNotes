@@ -1,0 +1,3 @@
+- MIT 6.824  
+- CMU 15-418 Parallel Computer Architecture  
+- Udacity CUDA Programming  

@@ -1,0 +1,3 @@
+- mechanical sympathy (Martin Thompson)
+- Russ Cox (Go memory model)
+- Brendan Gregg (perf)

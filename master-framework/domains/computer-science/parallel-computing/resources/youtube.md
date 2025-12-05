@@ -1,0 +1,3 @@
+- MIT 6.824 lectures  
+- Go Concurrency Patterns (Rob Pike)  
+- CppCon concurrency talks  

@@ -1,0 +1,5 @@
+- Go race detector
+- Thread sanitizer
+- perf
+- valgrind helgrind
+- CUDA toolkit
