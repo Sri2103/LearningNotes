@@ -1,0 +1,5 @@
+- Andrew Ng ML
+- Deep Learning Specialization
+- CS231n
+- CS224n
+- fast.ai practical deep learning

@@ -1,0 +1,4 @@
+- 3Blue1Brown  
+- Yannic Kilcher  
+- Two Minute Papers  
+- Sentdex  

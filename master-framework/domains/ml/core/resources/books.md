@@ -1,0 +1,4 @@
+- Deep Learning (Goodfellow)  
+- Hands-On ML (Aurelien Geron)  
+- PRML (Bishop)  
+- Dive Into Deep Learning  
