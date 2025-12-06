@@ -41,3 +41,9 @@ def merge(left,right):
 
     return result
 ```
+
+## Key Characteristics
+
+- Time complexity: O(n log n) for all cases (best, average, worst).​
+
+- Space complexity: O(n) due to temporary arrays during merge.​
