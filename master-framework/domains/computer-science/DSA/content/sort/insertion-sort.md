@@ -20,7 +20,7 @@ Insertion sort is a simple, in-place comparison-based sorting algorithm that bui
             key = arr[i]
             # starting up reverse pointer
             j = i-1
-            while j > 0 and key < arr[j]:
+            while j >= 0 and key < arr[j]:
                 # going in reverse and if current value is less than anything from previous sorted move right
                 arr[j+1] = arr[j]
                 # decrement j

@@ -38,3 +38,8 @@ def permute(nums):
 ```
 
 - Practice: N-Queens, subsets.​
+
+## Resources
+
+[The Ultimate Guide to Backtracking](https://www.abhinavpandey.dev/blog/backtracking-algorithms)
+[Backtracking Made Simple](https://algodaily.com/lessons/recursive-backtracking-for-combinatorial-path-finding-and-sudoku-solver-algorithms)
