@@ -28,3 +28,7 @@
 - [bfs-dfs](./techniques/bfs-dfs.md)
 - [binary-search](./techniques/binary-search.md)
 - [sliding-window](./techniques/sliding-window.md)
+
+## sorting
+
+- [bubble-sort](./sort/bubblesort.md)
