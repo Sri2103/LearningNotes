@@ -1,10 +1,38 @@
 # 2 pointer techniques
 
-## Description
+- A problem-solving method where you use two indices (pointers) to scan through data (usually arrays or strings).
+- Instead of brute force checking all pairs, you move the two pointers smartly to reduce time complexity.
+- Commonly used in problems involving searching, sorting, or optimizing subarrays/substrings.
 
-Two indices move coordinately on sequence. O(n) post-sort.
+## 🔑 Key Concepts
 
-- When to use: Sorted arrays, pairs, palindromes.
+**Pointer** → A variable that represents a position in the array/string.
+
+**Left Pointer** (start) → Usually begins at the start of the array.
+
+**Right Pointer** (end) → Usually begins at the end of the array.
+
+**Movement** → Depending on the problem, you move one or both pointers inward or forward.
+
+**Condition Check** → At each step, check if the current pair/segment meets the requirement.
+
+**Shrink/Expand Window** → Sometimes pointers define a "window" (subarray/substring) that grows or shrinks.
+
+**Termination** → Stop when pointers cross each other or when the condition is satisfied.
+
+## 🔄 Process Flow
+
+- Place two pointers at different positions (start/end or both at start).
+
+- Check condition (sum, match, length, etc.).
+
+- Move pointers based on the condition:
+
+- If too small → move right pointer forward.
+
+- If too large → move left pointer forward.
+
+- Repeat until pointers meet or condition is satisfied.
 
 ## pseudo code
 
@@ -18,17 +46,24 @@ while i<j:
 ## python coe
 
 ```python
-def two_sum_sorted(nums, target):
-    i, j = 0, len(nums) - 1
-    while i < j:
-        curr = nums[i] + nums[j]
-        if curr == target:
-            return [i, j]
-        elif curr < target:
-            i += 1
+def two_sum(arr, target):
+    left, right = 0, len(arr) - 1
+
+    while left < right:
+        current_sum = arr[left] + arr[right]
+
+        # ✅ Condition Check
+        if current_sum == target:
+            return (arr[left], arr[right])
+
+        # 🔄 Move Pointers
+        elif current_sum < target:
+            left += 1  # move right to increase sum
         else:
-            j -= 1
-    return []
+            right -= 1  # move left to decrease sum
+
+    return None
+
 
 # Test: two_sum_sorted([2,7,11,15], 9) -> [0,1]
 

@@ -1,10 +1,30 @@
 # Divide and conquer
 
-## Description
+- A problem-solving strategy that breaks a big problem into smaller subproblems.
 
-Recursively divides into subproblems, solves, merges. T(n) = aT(n/b) + f(n).
+- Solve each subproblem individually, then combine their results to solve the original problem.
 
-- **When to use**: Sorting, searching, matrix ops. Balanced for O(n log n).
+- Efficient for problems that can be naturally split into parts.
+
+## 🔑 Key Concepts
+
+**Divide** → Split the problem into smaller subproblems.
+
+**Conquer** → Solve each subproblem (often recursively).
+
+**Combine** → Merge the solutions of subproblems to form the final answer.
+
+**Recursion** → Commonly used to implement divide and conquer.
+
+**Base Case** → The smallest version of the problem that can be solved directly.
+
+## process
+
+- Divide the problem into smaller parts.
+
+- Conquer each part (solve recursively).
+
+- Combine the results of the parts.
 
 ## pseudocode
 
@@ -45,4 +65,26 @@ def merge(left, right):
 
 ```
 
+## Where Divide and Conquer is Used
+
+Sorting algorithms → Merge Sort, Quick Sort.
+
+Searching algorithms → Binary Search.
+
+Matrix multiplication → Strassen’s algorithm.
+
+Computational geometry → Closest pair of points.
+
+Dynamic programming optimizations.
+
 - Practice: Quicksort, closest pair.​
+
+## summary
+
+Divide and Conquer = Break → Solve → Combine.
+
+Works well for problems that can be split into independent parts.
+
+Often implemented with recursion.
+
+Time complexity depends on how the problem is divided and combined.
