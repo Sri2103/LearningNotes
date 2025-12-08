@@ -119,10 +119,43 @@ def longest_unique_substring(s):
 
 ## Summary
 
-Sliding Window = Reuse results while moving across contiguous sequences.
+- **Sliding Window** = Reuse results while moving across contiguous sequences.
 
-Two types: Fixed window and Variable window.
+- **Two types**: Fixed window and Variable window.
 
-Efficient alternative to brute force for subarray/substring problems.
+- Efficient alternative to brute force for subarray/substring problems.
 
-Time complexity often reduced to O(n)
+- Time complexity often reduced to O(n)
+
+---
+
+## table for sliding window
+
+| Version              | Window Size   | Data Structure     | Used For            |
+| -------------------- | ------------- | ------------------ | ------------------- |
+| Fixed Size           | Constant k    | None / Sum counter | Avg, max sum        |
+| Variable Size        | Dynamic       | Two pointers       | Longest / shortest  |
+| HashSet Window       | Dynamic       | Set                | Uniqueness          |
+| Frequency Map Window | Dynamic       | Map                | Distinct / Anagram  |
+| Decision Window      | Usually fixed | Set / Map          | Yes/No existence    |
+| Optimization Window  | Dynamic       | Any                | Max/Min answers     |
+| Deque Window         | Fixed         | Monotonic deque    | Max/Min in window   |
+| Implicit Window      | Logical       | Map (index)        | Distance duplicates |
+
+## identifiers
+
+If you see any of these:
+
+- “subarray”
+
+- “substring”
+
+- “contiguous”
+
+- “within k”
+
+- “at most k”
+
+- “longest / shortest”
+
+- “window of size k”

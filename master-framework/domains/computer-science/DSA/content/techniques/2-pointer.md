@@ -100,3 +100,25 @@ Practice: 3Sum, container water.​
 - Initialize Two Pointers: Start with both pointers at the beginning of the data structure.
 - Move the Pointers: Move one pointer (usually the faster one) ahead of the other based on specific conditions.
 - Adjust the Pointers: Modify the positions of the pointers as needed to maintain the desired window conditions.
+
+## methodologies
+
+- prefix and suffix max (Dynamic programming - can be seen later -lc-31)
+- dutchflag problems(where needed 3 partion, left,current,right)(-lc-75)
+
+---
+
+## 2 pointer variants
+
+| Problem Type             | Use This Variant |
+| ------------------------ | ---------------- |
+| Palindrome / Pair search | Opposite Ends    |
+| In-place filtering       | Read–Write       |
+| Cycle / Middle           | Fast–Slow        |
+| K-th from end            | Gap-Based        |
+| Merge at back            | Backward Fill    |
+| Pivot grouping           | Partition        |
+| Exactly 3 categories     | Dutch Flag       |
+| Distance-based duplicate | Implicit Index   |
+| Subarray optimization    | Window Hybrid    |
+| Compare two arrays       | Dual Arrays      |
