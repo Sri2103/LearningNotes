@@ -243,3 +243,75 @@ sliding window of recent activity
 | Longest valid window | Traffic spike detection |
 | At most K distinct   | Session tracking        |
 | Circular window      | Rotating buffers        |
+
+## pattern recoginition
+
+A window that moves over data while maintaining live state.
+
+You are:
+
+- ✅ Adding on the right
+
+- ✅ Removing on the left
+
+- ✅ Maintaining a condition continuously
+
+This is stream processing, not batch processing.
+
+### Pattern recognition
+
+You should immediately think Sliding Window when you hear:
+
+- ✅ “subarray”
+
+- ✅ “substring”
+
+- ✅ “contiguous”
+
+- ✅ “last k”
+
+- ✅ “within k”
+
+- ✅ “at most k”
+
+- ✅ “longest”
+
+- ✅ “shortest”
+
+- ✅ “rolling”
+
+- ✅ “rate in last X seconds”
+
+### structures
+
+**Fixed size**:
+
+```python
+left = 0
+window_sum = 0
+
+for right in range(n):
+    window_sum += nums[right]
+
+    if right - left + 1 == k:
+        process(window_sum)
+        window_sum -= nums[left]
+        left += 1
+
+```
+
+**Variable size**:
+
+```python
+left = 0
+
+for right in range(n):
+    add(nums[right])
+
+    while window_invalid():
+        remove(nums[left])
+        left += 1
+
+    update_answer()
+
+```

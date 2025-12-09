@@ -97,6 +97,81 @@ def array_sum(arr):
 
 - **Backtracking problems** → Sudoku, N-Queens, Maze solving.
 
+## Patterns
+
+- You solve ONE piece and trust recursion to solve the rest.
+
+You should think Recursion when you see:
+
+- ✅ Trees
+
+- ✅ Graph DFS
+
+- ✅ Backtracking
+
+- ✅ Divide & Conquer
+
+- ✅ Nested structures
+
+- ✅ “Do same thing on smaller input”
+
+- ✅ “All possibilities”
+
+**big recursion pattern**:
+
+| Order            | Used When                              |
+| ---------------- | -------------------------------------- |
+| Decide → Recurse | Build forward (merge, construct)       |
+| Recurse → Decide | Fix after future (delete, reverse, DP) |
+
+**Generic structure**:
+
+```python
+PRE-ORDER:
+[ DO WORK ] → recurse → recurse → recurse
+
+POST-ORDER:
+recurse → recurse → recurse → [ DO WORK ]
+```
+
+- Pre-order → Do your work BEFORE going down
+
+| Problem Type          | Why                                 |
+| --------------------- | ----------------------------------- |
+| Building structures   | You must create before going deeper |
+| Merging lists (LC 21) | You pick the head first             |
+| Tree creation         | You build parent before children    |
+| DFS printing          | Visit node before children          |
+
+```python
+# Decide → Recurse (Preorder)
+def solve(x):
+    if base_case(x):
+        return base_value
+
+    decision = make_decision(x)
+    return solve(reduced_x)
+
+```
+
+```python
+# Recurse → Decide (Postorder)
+def solve(x):
+    if base_case(x):
+        return base_value
+
+    result = solve(reduced_x)
+    return decide_using(result)
+
+```
+
+| Problem Type            | Why                               |
+| ----------------------- | --------------------------------- |
+| Deleting nodes          | You must know final `next`        |
+| Reversing list (LC 206) | You must flip after tail is ready |
+| Tree DP                 | Parent depends on children        |
+| Evaluating expressions  | Operands before operator          |
+
 ## Summary
 
 - Recursion = Function calling itself to solve smaller problems.

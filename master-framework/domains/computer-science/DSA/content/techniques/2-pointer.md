@@ -199,3 +199,69 @@ Two pointers:
 | Read/Write pointer | Buffer compaction            |
 | Fast/Slow pointer  | Cycle & corruption detection |
 | Opposite pointers  | Bounds search                |
+
+## pattern recognition
+
+You should immediately think Two Pointers when you see:
+
+- ✅ “sorted array”
+
+- ✅ “pair”
+
+- ✅ “two ends”
+
+- ✅ “remove in-place”
+
+- ✅ “merge”
+
+- ✅ “compare from both sides”
+
+- ✅ “fast & slow”
+
+- ✅ “in-place without extra memory”
+
+### submodels
+
+| Variant       | Mental Image                 |
+| ------------- | ---------------------------- |
+| Opposite Ends | Two walls closing in         |
+| Read & Write  | Scanner + Builder            |
+| Fast & Slow   | Runner & Walker              |
+| Gap Based     | Two people walking with rope |
+| Merge         | Two conveyor belts           |
+
+### pattern structures
+
+#### Opposite ends
+
+```python
+l, r = 0, n-1
+while l < r:
+    if condition:
+        l += 1
+    else:
+        r -= 1
+
+```
+
+#### Read and write
+
+```python
+write = 0
+for read in range(n):
+    if valid(nums[read]):
+        nums[write] = nums[read]
+        write += 1
+
+```
+
+#### Fast and sloe
+
+```python
+write = 0
+for read in range(n):
+    if valid(nums[read]):
+        nums[write] = nums[read]
+        write += 1
+
+```
