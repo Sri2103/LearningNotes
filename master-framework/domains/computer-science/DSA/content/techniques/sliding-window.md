@@ -159,3 +159,87 @@ If you see any of these:
 - “longest / shortest”
 
 - “window of size k”
+
+## production usage
+
+### Rate Limiting (APIs, Gateways)
+
+Example:
+
+```text
+Max 100 requests per 60 seconds
+
+```
+
+This is a time-based sliding window:
+
+- Add requests as time advances
+
+- Remove expired ones
+
+- Check size of window
+
+Used in:
+
+- API gateways
+
+- Cloud load balancers
+
+- Authentication systems
+
+### Real-Time Analytics & Monitoring
+
+Used in:
+
+- CPU usage over last 5 minutes
+
+- Error rate in last 1 minute
+
+- Traffic spikes over rolling intervals
+
+```text
+Sliding window + aggregation
+
+```
+
+### Streaming Systems (Kafka, Flink, Spark)
+
+Used in:
+
+- Event-time windows
+
+- Tumbling windows
+
+- Sliding windows
+
+Pattern:
+
+```text
+window.add(event)
+window.remove(expired events)
+```
+
+### Security & Fraud Detection
+
+Used in:
+
+- Login attempts in last X seconds
+
+- Credit card transactions in last Y minutes
+
+- Brute-force detection
+
+Again:
+
+```text
+sliding window of recent activity
+```
+
+### summary
+
+| Interview Use        | Production Use          |
+| -------------------- | ----------------------- |
+| Subarray of size K   | API rate limits         |
+| Longest valid window | Traffic spike detection |
+| At most K distinct   | Session tracking        |
+| Circular window      | Rotating buffers        |

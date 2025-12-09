@@ -99,3 +99,18 @@ small.next = dummy2.next
 | Rotate / Shift          | Circular Linking             |
 
 ---
+
+```python
+# linkedlist operation on using linkedlist
+def solve(head):
+    if not head:
+        return None
+
+    head.next = solve(head.next)
+
+    if should_delete(head):
+        return head.next
+    else:
+        return head
+
+```
