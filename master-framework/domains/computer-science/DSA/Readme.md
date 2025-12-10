@@ -28,3 +28,19 @@ Use it daily. Improve it weekly.
 - Review all flashcards
 - Add new patterns
 - Rewrite hard problems using the template
+
+## learning hierarchy
+
+```text
+1. Two Pointers ✅ (Done)
+2. Sliding Window ✅ (Done)
+3. Recursion ✅ (Done)
+--------------------------------
+4. Stack & Monotonic Stack
+5. Prefix Sum + Hashmap
+6. Binary Search on Answers
+7. Backtracking
+8. Trees (DFS/BFS)
+9. Graphs
+10. Dynamic Programming
+```
