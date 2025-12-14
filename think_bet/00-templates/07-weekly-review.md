@@ -8,6 +8,13 @@ Week Of:
 - [ ] Decision 2
 - [ ] Decision 3
 
+## BETS REVIEW
+
+- B — Beliefs updated?
+- E — New evidence?
+- T — Thinking corrected?
+- S — Stakes adjusted?
+
 ## Key Updates
 
 (What changed this week?)
